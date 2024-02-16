@@ -1445,9 +1445,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   underButtons: {fileID: 2141703335}
-  selectMode: {fileID: 0}
-  counterMode: {fileID: 0}
-  registMode: {fileID: 0}
+  selectMode: {fileID: 1760326617}
+  counterMode: {fileID: 158972155}
+  registMode: {fileID: 51020707}
 --- !u!1 &1343298284
 GameObject:
   m_ObjectHideFlags: 0

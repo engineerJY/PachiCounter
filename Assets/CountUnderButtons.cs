@@ -28,7 +28,8 @@ public class CountUnderButtons : MonoBehaviour
 
     private void ClickButton1()
     {
-        if(ChangeMode != null)
+        CommonConst.Instance.SetGameMode(CommonConst.GameMode.Select);
+        if (ChangeMode != null)
         {
             ChangeMode();
         }
@@ -36,6 +37,7 @@ public class CountUnderButtons : MonoBehaviour
 
     private void ClickButton2()
     {
+        CommonConst.Instance.SetGameMode(CommonConst.GameMode.Counter);
         if (ChangeMode != null)
         {
             ChangeMode();
@@ -44,6 +46,7 @@ public class CountUnderButtons : MonoBehaviour
 
     private void ClickButton3()
     {
+        CommonConst.Instance.SetGameMode(CommonConst.GameMode.Regist);
         if (ChangeMode != null)
         {
             ChangeMode();

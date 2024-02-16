@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class CommonMode : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public virtual void Init()
     {
         
     }
@@ -15,4 +14,6 @@ public class CommonMode : MonoBehaviour
     {
         
     }
+
+
 }

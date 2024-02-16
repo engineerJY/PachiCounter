@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class RegistMode : CommonMode
 {
-    // Start is called before the first frame update
-    void Start()
+    override public void Init()
     {
-        
+        base.Init();
+
     }
 
     // Update is called once per frame
